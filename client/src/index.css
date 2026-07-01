@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles for premium feel */
+/* Base styles for premium feel */
+body {
+  @apply bg-love-950 text-white font-sans antialiased overflow-x-hidden;
+  background: radial-gradient(circle at top center, #881337 0%, #1a0509 100%);
+  min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d0a12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fb7185;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d48;
+}
